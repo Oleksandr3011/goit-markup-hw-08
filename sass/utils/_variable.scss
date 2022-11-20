@@ -1,0 +1,16 @@
+/* колір основного тексту #757575 */
+/* колір заголовку #21211 */
+/* колір акцента синій #2196F3 */
+/* Адреса і телефон у футері (rgba(255, 255, 255, 0.6)) */
+
+
+:root {
+    $primary-text-color: #757575;
+    $title-text-color: #212121;
+    $accent-color: #2196f3;
+    $portfolio-title-text-color: rgba(33, 33, 33, 1);
+    $white-color: #fff;
+    $color: var(--primary-text-color);
+    $background-color: #ffffff;
+    $font-family: 'Roboto', sans-serif;
+}
