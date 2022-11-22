@@ -1472,7 +1472,8 @@ work-fotos__item {
     }
 }
 
-.footer-list__link ,.footer-list__address {
+.footer-list__link ,
+.footer-list__address {
     display: block;
     color: #fff;
     font-style: normal;
@@ -1571,7 +1572,6 @@ work-fotos__item {
 }
 
 .footer-card-right {
-    display: flex;
     align-items: center;
     flex-direction: column;
     width: 100%;
@@ -1586,8 +1586,8 @@ work-fotos__item {
 }
 
 @media screen and (min-width: 1200px) {
-    .footer-card-right {
-        margin-left: 93px;
+    .footer-card-right 
+    .footer-form {font-weight: auto;
         align-items: unset;
         max-width: unset;
     }
